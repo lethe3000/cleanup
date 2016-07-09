@@ -20,7 +20,7 @@ func start() {
     }
     app.Usage = "A simple command line tool for docker image clean."
     app.Flags = []cli.Flag{
-        cli.StringFlag{Name: "docker-entry, d", Usage: "docker api entry"},
+        cli.StringFlag{Name: "docker-entry, d", Usage: "docker api entry, default unix://var/run/docker.sock"},
     }
     app.Commands = []cli.Command{
         command.NewDummyCommand(),
