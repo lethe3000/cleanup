@@ -11,7 +11,7 @@ import (
 func NewRemoveCommand() cli.Command {
     return cli.Command{
         Name:      "rm",
-        Usage:     "remove images",
+        Usage:     "remove images by date or count",
         ArgsUsage: " ",
         Flags: []cli.Flag{
             cli.StringFlag{Name: "name", Usage: "image name to remove"},
