@@ -4,7 +4,7 @@ import (
   "fmt"
   "os"
   "github.com/urfave/cli"
-  "testbird.com/docker/command"
+  "github.com/lethe3000/cleanup/command"
 )
 
 func main() {
